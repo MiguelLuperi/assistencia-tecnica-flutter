@@ -17,7 +17,7 @@ class FormularioTransferenciaState extends State<FormularioTransferencia> {
 
   static const _tituloAppBar = 'Criando transferência';
   static const _rotuloCampoValor = 'Valor';
-  static const _dicaCampoValor = '0.00';
+  static const _dicaCampoValor = '0,00';
 
   static const _rotuloCampoNumeroConta = 'Número da conta';
   static const _dicaCampoNumeroConta = '0000';

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/transferencias/lista.dart';
+import 'package:intl/intl.dart';
 
 void main() => runApp(BankApp());
 
@@ -8,6 +9,7 @@ class BankApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Intl.defaultLocale = "pt_BR";
     return MaterialApp(
       theme: ThemeData(
         // Ativa o estilo Material 3, mais atual e com suporte aos widgets modernos
