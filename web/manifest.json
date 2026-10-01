@@ -1,6 +1,6 @@
 {
-    "name": "bank",
-    "short_name": "bank",
+    "name": "assistencia_tecnica",
+    "short_name": "assistencia_tecnica",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

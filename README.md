@@ -1,16 +1,23 @@
-# bank
+# Assistência Técnica
 
-A new Flutter project.
+Aplicativo Flutter para controle de reparos de uma assistência técnica, adaptado do Projeto Bank estudado em aula (Programação para Dispositivos Móveis II, FATEC Franca).
 
-## Getting Started
+## Funcionalidades
+- Lista de ordens de serviço com valor do reparo formatado em reais (intl).
+- Cadastro de novo reparo (número da ordem de serviço e valor), com validação via tryParse.
+- Dados mantidos somente em memória (sem camada database).
 
-This project is a starting point for a Flutter application.
+## Estrutura
+- lib/main.dart
+- lib/components/editor.dart
+- lib/models/reparo.dart
+- lib/screens/reparos/lista.dart
+- lib/screens/reparos/formulario.dart
 
-A few resources to get you started if this is your first Flutter project:
+## Como executar
+    flutter pub get
+    flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Evidências
+- evidencias/formulario.png
+- evidencias/lista.png
